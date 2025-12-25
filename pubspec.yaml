@@ -1,0 +1,40 @@
+name: "nd_astro"
+description: "Astrology app UI built with Flutter."
+publish_to: 'none'
+version: 0.1.2
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  rename_app: ^1.6.5
+
+flutter:
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#fff2b9"
+  color_dark: "#fff2b9"
+  image: assets/images/ndastro-logo.png
+  android: true
+  ios: false
+  web: false
+  branding: assets/images/ndastro-brand.png
+  branding_dark: assets/images/ndastro-brand.png
+  android_12:
+    image: assets/images/ndastro-logo.png
+    icon_background_color: "#fff2b9"
+    icon_background_color_dark: "#fff2b9"
+    branding: assets/images/ndastro-brand.png
+    branding_dark: assets/images/ndastro-brand.png
+
+
